@@ -54,10 +54,14 @@ Rentio/
 🔮 Future Improvements
 
 🔐 User authentication
+
 📸 Image upload support
+
 📅 Booking functionality
+
 ☁️ Cloud deployment.
 
 👨‍💻 Author
+
 Vaibhav Singh
 🎓 B.Tech Student | 🚀 Aspiring Software Engineer
