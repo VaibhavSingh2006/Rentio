@@ -10,7 +10,7 @@ const wrapAsync = require("./utils/wrapAsync.js");
 const ExpressError = require("./utils/ExpressError.js");
 const {listingSchema} = require("./schema.js");
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/Rentio";
+const MONGO_URL = process.en.MONGO_URL;
 
 main()
       .then(()=>{
@@ -115,6 +115,8 @@ app.use((err, req, res, next)=>{
    res.status(statusCode).render("error.ejs", {message});
    //res.status(statusCode).send(message);
 });
-app.listen(8080, ()=>{
-    console.log("port is listening at 8080");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
