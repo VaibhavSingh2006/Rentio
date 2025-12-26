@@ -1,4 +1,11 @@
 {
+  "name": "rentio",
+  "version": "1.0.0",
+  "description": "Rentio - Airbnb inspired rental platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
