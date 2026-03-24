@@ -8,7 +8,7 @@ This project focuses on backend development, RESTful APIs, and database integrat
 
 ## 🚀 Features
 ✅ View all rental listings  
-➕ Add new rental properties  
+➕ Add new rental properties 
 ✏️ Edit existing listings  
 🗑️ Delete listings  
 🔁 RESTful CRUD operations  
